@@ -45,7 +45,7 @@ $$ \frac{P(S | C_1) \cdot \cancel{P(C_1)}}{\cancel{P(S)}} > \frac{P(S | C_2) \cd
 
 P(C1) = P(C2) because, in this case, the same amount of sentences are taken for both authors. 
 
-The P(S | C) is calculated as the product of the probabilities of each word being part of the class _C_. For example, if we assume _S_ is composed of four words (_W1_, _W2_, _W3_, _W4_):
+The 'naive' refers to a strong independence assumption. Therefore, the P(S | C) is calculated as the product of the probabilities of each word being part of the class _C_. For example, if we assume _S_ is composed of four words (_W1_, _W2_, _W3_, _W4_):
 
 $$ P(S | C_1) = P(W_1, W_2, W_3, W_4 | C_1) = P(W_1 | C_1) \cdot P(W_2 | C_1) \cdot P(W_3 | C_1) \cdot P(W_4 | C_1) $$
 
